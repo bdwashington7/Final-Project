@@ -1,0 +1,337 @@
+/*Start Css>>> Main>>>>> {Writen by W Arun}*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+a:hover{
+    
+}
+@font-face{
+	font-family:Revere;
+	src:url("../fonts/Revere.ttf");
+}
+
+@font-face{
+	font-family:../fonts/Revere;
+	src:url("../fonts/Revere.eot");
+}
+@font-face{
+    font-family:sub-title;
+    src:url(../fonts/sub-title.ttf);
+}
+@font-face{
+    font-family:sub-title;
+    src:url(../fonts/sub-title.eot);
+}
+
+.header img{
+    padding-top: 20px;
+    position: relative;
+    left: 45%;
+}
+.header h1 {
+    left: 45%;
+    font-family: Revere;
+    color: #898989;
+    position: absolute;
+    padding-left: 57px;
+    top: 29px;
+    font-size: 45px;
+    
+}
+.header>h1>span{
+    color:#e6a549;
+}
+.header p{
+    position: absolute;
+    font-family: sub-title;
+    text-transform: uppercase;
+    left: 46%;
+    top: 72px;
+    color: #898989;
+}
+
+/*Manu section Start*/
+#menu-body{
+    float: left;
+    margin: 
+}
+#menu {
+    width:960px;
+    float:left;
+    font-family: sub-title;
+    
+}
+.nav ul{
+    list-style: none;
+    text-transform: uppercase;
+    padding-left: 185px;
+    padding-top: 10px;
+}
+.nav ul li  {
+    display: inline;
+    padding: 11px;
+    
+}
+#search img{
+    position: relative;
+    top: -29px;
+    float: right;
+    margin-inline-end: -196px !important;
+}
+
+#search_text{
+    position: absolute;
+    float: right;
+    right: 326px;
+    top: 126px;
+    
+}
+#search_button {
+    position: absolute;
+    float: right;
+    right: 223px;
+    top: 126px;
+}
+
+#nav-2{
+    margin-top: -1px;
+}
+        /*Slide Start here..........*/
+#slide img {
+   
+    margin-top: -1px;
+    position: relative;
+    left: 195px;
+}
+#arrow2{
+    margin-top: -234px;
+    position: absolute;
+    left: 1px;
+}
+#arrow1{
+    margin-top: -234px;
+    position: absolute;
+    left: 923px;
+}
+#slide_bottom img {
+    left: 220px;
+    position: absolute;
+    top: 501px;
+}
+.coption_slide {
+    background-color: #cfcfcf;
+    left: 195px;
+    opacity: 0.4;
+    position: absolute;
+    top: 399px;
+    width: 960px;
+}
+.coption_slide p{
+    padding-top: 27px;
+    opacity:1;
+    padding-right: 10px;
+    padding-bottom: 27px;
+    padding-left: 14px;
+}
+#controls img {
+    left: 606px;
+    position: absolute;
+    top: 477px;
+}
+
+#content {
+    border: 2px solid #ececec;
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px;
+    font-family: Revere;
+    height:82px;
+    margin-bottom: 50px;
+    margin-left: 195px;
+    margin-top: 50px;
+    padding: 10px;
+    width: 941px;
+}
+#content p {
+    padding-left: 36px;
+    padding-right: 36px;
+    text-align: center;
+}
+#content span{
+    color:#e6a549;
+}
+
+/*        Gallary Start from here*/
+
+#img_gallary {
+    margin-left: 189px;
+    margin-top: 23px;
+    padding: 0px;
+    font-size: 22px;
+}
+#img_gallary span{
+    color:#e6a549;
+}
+#box-1 img {
+    padding-left: 0px;
+    margin-top: 13px;
+}
+
+/*Main Content Start from here*/
+
+#main_content {
+    width: 960px;
+    font-family: sub-tittle;
+}
+#main_content > #contten-right {
+    float: left;
+    margin-left: 190px;
+    padding-top: 20px;
+    width: 440px;
+}
+#contten-right>h1>span{
+    color:#e6a549;
+}
+
+#read-more-right img {
+    margin-left: -171px;
+    position: relative;
+    top: 319px;
+}
+
+
+#read-more-right-text p {
+    margin-left: 496px;
+    margin-top: 292px;
+    position: absolute;
+}
+
+#contten-left {
+    float: left;
+    margin-left: 721px;
+    margin-top: -306px;
+    padding-top: 20px;
+    width: 440px;
+}
+#contten-left>h1>span{
+    color:#e6a549;
+}
+#right-post-1 {
+    padding-top: 10px;
+}
+
+#right-post-cont {
+    margin-left: 120px;
+    margin-top: -85px;
+    padding-right: 15px;
+}
+#right-post-cont>span{
+    color: #e6a549;
+}
+#right-post-2 {
+    padding-top: 13px;
+}
+
+#right-post-cont-2 {
+    margin-left: 120px;
+    margin-top: -85px;
+    padding-right: 15px;
+}
+#right-post-cont-2>span{
+    color: #e6a549;
+}
+
+#right-post-3{
+    padding-top: 27px;
+}
+#right-post-cont-3 {
+    margin-left: 120px;
+    margin-top: -85px;
+    padding-right: 15px;
+}
+#right-post-cont-3>span{
+    color: #e6a549;
+}
+
+#read-more-left img {
+    margin-left: 282px;
+    position: relative;
+    top: 8px;
+}
+
+
+#read-more-left-text p {
+    margin-left: 338px;
+    margin-top: -16px;
+    position: absolute;
+}
+/*Start from here Information Area*/
+#information img {
+    margin-top: 66px;
+}
+#info-bg img {
+    position: relative;
+    width: 1349px;
+    margin-top: -3px;
+}
+#com_1 {
+    position: absolute;
+    width: 320px;
+    margin-left: 187px;
+    margin-top: -381px;
+    font-family: sub-title;
+}
+#com_2 {
+    position: absolute;
+    width: 320px;
+    margin-left: 576px;
+    margin-top: -381px;
+    font-family: sub-title;
+}
+#com_3 {
+    position: absolute;
+    width: 169px;
+    margin-left: 897px;
+    margin-top: -381px;
+    font-family: sub-title;
+    color: #545452;
+}
+#com_4 {
+    position: absolute;
+    width: 157px;
+    margin-left: 1087px;
+    margin-top: -347px;
+    font-family: sub-title;
+    color: #545452;
+}
+#social-icon{
+    position: absolute;
+    margin-left: 1px;
+}
+#social-icon ul {
+    list-style-type: none;
+    margin-left: 107px;
+    margin-top: -58px;
+}
+#social-icon li{
+    display: inline;
+    padding-left: 10px;
+}
+/*    It is Foooter*/
+#footer{
+    float: right;
+    margin-right: 1px;
+    margin-top:1px;
+}
